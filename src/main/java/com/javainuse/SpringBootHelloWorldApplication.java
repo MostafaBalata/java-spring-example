@@ -11,6 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class SpringBootHelloWorldApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Yes this is new..");
 		SpringApplication.run(SpringBootHelloWorldApplication.class, args);
 	}
 }
